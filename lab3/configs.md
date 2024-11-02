@@ -241,11 +241,11 @@ set name=R01.LBN
 PC1: 
 
 ```
-ip add add 10.10.0.50/24 dev eth0
+ip add add 10.10.0.2/24 dev eth0
 ```
 
 SGI-PRISM:
 
 ```
-
+ip add add 10.10.0.3/16 dev eth0
 ```
