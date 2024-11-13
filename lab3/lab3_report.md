@@ -56,6 +56,21 @@ Date of finished: 02.11.2024
 
 <img src="./imgs/SGI_PRISM->PC1.png">
 
+# Traceroute
+
+### из R01.SPB в 192.168.4.101 и 192.168.3.101
+
+<img src="./imgs/traceroute.png">
+
+Интересно, что выбор маршрута на R01.NY:eth3 проходит через R01.LBN, а на R01.NY:eth4 через R01.LND.
+
+### Из R01.SPB в R01.NY и наоборот
+
+<img src="./imgs/NY->SPB.jpg">
+<img src="./imgs/SPB->NY.jpg">
+
+Здесь выбор промежуточных маршрутизаторов совпадает
+
 
 
 
