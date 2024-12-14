@@ -36,7 +36,7 @@ add interface=ether4
 /routing bgp instance vrf
 add redistribute-connected=yes redistribute-ospf=yes routing-mark=vrf1
 /routing bgp peer
-add address-families=l2vpn name=peer1 remote-address=172.16.5.2 remote-as=\
+add address-families=l2vpn name=peer1 remote-address=9.9.9.2 remote-as=\
     65500 update-source=loopback
 /routing ospf network
 add area=backbone network=192.168.1.100/30
